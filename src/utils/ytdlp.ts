@@ -4,7 +4,7 @@ import { downloadFile } from '../utils/request';
 import { BIN_DIR } from '..';
 
 const DOWNLOAD_BASE_URL =
-  'https://github.com/yt-dlp/yt-dlp/releases/latest/download';
+  'https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/latest/download';
 
 const PLATFORM_MAPPINGS: Record<string, Record<string, string>> = {
   win32: {
